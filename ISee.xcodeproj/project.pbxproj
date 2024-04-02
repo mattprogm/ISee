@@ -49,7 +49,6 @@
 		DA6C61032BBBB600001DAF7E /* ISeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA6C61072BBBB600001DAF7E /* ISeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISeeUITests.swift; sourceTree = "<group>"; };
 		DA6C61092BBBB600001DAF7E /* ISeeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISeeUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		DA6C61172BBBC1B7001DAF7E /* CODEOWNERS */ = {isa = PBXFileReference; lastKnownFileType = text; path = CODEOWNERS; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +99,6 @@
 		DA6C60E52BBBB5FF001DAF7E /* ISee */ = {
 			isa = PBXGroup;
 			children = (
-				DA6C61162BBBC0CE001DAF7E /* docs */,
 				DA6C60E62BBBB5FF001DAF7E /* AppDelegate.swift */,
 				DA6C60E82BBBB5FF001DAF7E /* SceneDelegate.swift */,
 				DA6C60EA2BBBB5FF001DAF7E /* ViewController.swift */,
@@ -127,14 +125,6 @@
 				DA6C61092BBBB600001DAF7E /* ISeeUITestsLaunchTests.swift */,
 			);
 			path = ISeeUITests;
-			sourceTree = "<group>";
-		};
-		DA6C61162BBBC0CE001DAF7E /* docs */ = {
-			isa = PBXGroup;
-			children = (
-				DA6C61172BBBC1B7001DAF7E /* CODEOWNERS */,
-			);
-			path = docs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
