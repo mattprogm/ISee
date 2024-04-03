@@ -1,0 +1,6 @@
+framework module Pods_ISee_ISeeUITests {
+  umbrella header "Pods-ISee-ISeeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
