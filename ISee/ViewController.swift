@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         print("Using RxBlocking on ISee Tests")
         print("Using Firebase Auth")
         print("Using XCoordinator")
+        self.view.backgroundColor = .systemPink
     }
 
     func testLint(test: String) {}
