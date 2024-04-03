@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0304641A21EE396A6E0A4C62 /* Pods_ISee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED985C8BF4D0028F42B6D1A /* Pods_ISee.framework */; };
+		365DB74344D262011AC6B2F7 /* Pods_ISee_ISeeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBFEF615BC0AFD9549BD836F /* Pods_ISee_ISeeUITests.framework */; };
+		A77E9F332BB6C29631081575 /* Pods_ISeeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 105D62926FCD69058F08929F /* Pods_ISeeTests.framework */; };
+		DA032B7D2BBCE87E00F87ED9 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = DA032B7C2BBCE87E00F87ED9 /* .swiftlint.yml */; };
 		DA6C60E72BBBB5FF001DAF7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C60E62BBBB5FF001DAF7E /* AppDelegate.swift */; };
 		DA6C60E92BBBB5FF001DAF7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C60E82BBBB5FF001DAF7E /* SceneDelegate.swift */; };
 		DA6C60EB2BBBB5FF001DAF7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C60EA2BBBB5FF001DAF7E /* ViewController.swift */; };
@@ -16,6 +20,7 @@
 		DA6C60FE2BBBB600001DAF7E /* ISeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C60FD2BBBB600001DAF7E /* ISeeTests.swift */; };
 		DA6C61082BBBB600001DAF7E /* ISeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C61072BBBB600001DAF7E /* ISeeUITests.swift */; };
 		DA6C610A2BBBB600001DAF7E /* ISeeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C61092BBBB600001DAF7E /* ISeeUITestsLaunchTests.swift */; };
+		DADE04662BBCD25800295FE3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DADE04652BBCD25800295FE3 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0362704293A73C54A39BC9AA /* Pods-ISee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISee.debug.xcconfig"; path = "Target Support Files/Pods-ISee/Pods-ISee.debug.xcconfig"; sourceTree = "<group>"; };
+		0D0D21F524FE724B9B7181C0 /* Pods-ISee-ISeeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISee-ISeeUITests.release.xcconfig"; path = "Target Support Files/Pods-ISee-ISeeUITests/Pods-ISee-ISeeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		105D62926FCD69058F08929F /* Pods_ISeeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ISeeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53232CDB78DE92BF9653D116 /* Pods-ISee-ISeeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISee-ISeeUITests.debug.xcconfig"; path = "Target Support Files/Pods-ISee-ISeeUITests/Pods-ISee-ISeeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		60DD7D0CCD07978A5453710D /* Pods-ISeeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISeeTests.debug.xcconfig"; path = "Target Support Files/Pods-ISeeTests/Pods-ISeeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BED985C8BF4D0028F42B6D1A /* Pods_ISee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ISee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8453911EA9FFF2375ECEF6 /* Pods-ISee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISee.release.xcconfig"; path = "Target Support Files/Pods-ISee/Pods-ISee.release.xcconfig"; sourceTree = "<group>"; };
+		DA032B7C2BBCE87E00F87ED9 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		DA6C60E32BBBB5FF001DAF7E /* ISee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA6C60E62BBBB5FF001DAF7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA6C60E82BBBB5FF001DAF7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +62,9 @@
 		DA6C61032BBBB600001DAF7E /* ISeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA6C61072BBBB600001DAF7E /* ISeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISeeUITests.swift; sourceTree = "<group>"; };
 		DA6C61092BBBB600001DAF7E /* ISeeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISeeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DADE04652BBCD25800295FE3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DFEB1D82F83D62D6953151A0 /* Pods-ISeeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISeeTests.release.xcconfig"; path = "Target Support Files/Pods-ISeeTests/Pods-ISeeTests.release.xcconfig"; sourceTree = "<group>"; };
+		FBFEF615BC0AFD9549BD836F /* Pods_ISee_ISeeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ISee_ISeeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0304641A21EE396A6E0A4C62 /* Pods_ISee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A77E9F332BB6C29631081575 /* Pods_ISeeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +88,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				365DB74344D262011AC6B2F7 /* Pods_ISee_ISeeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A273E16A22C933C6AC750B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BED985C8BF4D0028F42B6D1A /* Pods_ISee.framework */,
+				FBFEF615BC0AFD9549BD836F /* Pods_ISee_ISeeUITests.framework */,
+				105D62926FCD69058F08929F /* Pods_ISeeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C7CD7585448CB7B14111AB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0362704293A73C54A39BC9AA /* Pods-ISee.debug.xcconfig */,
+				BF8453911EA9FFF2375ECEF6 /* Pods-ISee.release.xcconfig */,
+				53232CDB78DE92BF9653D116 /* Pods-ISee-ISeeUITests.debug.xcconfig */,
+				0D0D21F524FE724B9B7181C0 /* Pods-ISee-ISeeUITests.release.xcconfig */,
+				60DD7D0CCD07978A5453710D /* Pods-ISeeTests.debug.xcconfig */,
+				DFEB1D82F83D62D6953151A0 /* Pods-ISeeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DA6C60DA2BBBB5FF001DAF7E = {
 			isa = PBXGroup;
 			children = (
+				DA032B7C2BBCE87E00F87ED9 /* .swiftlint.yml */,
 				DA6C60E52BBBB5FF001DAF7E /* ISee */,
 				DA6C60FC2BBBB600001DAF7E /* ISeeTests */,
 				DA6C61062BBBB600001DAF7E /* ISeeUITests */,
 				DA6C60E42BBBB5FF001DAF7E /* Products */,
+				9C7CD7585448CB7B14111AB1 /* Pods */,
+				8A273E16A22C933C6AC750B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +151,7 @@
 				DA6C60EF2BBBB5FF001DAF7E /* Assets.xcassets */,
 				DA6C60F12BBBB5FF001DAF7E /* LaunchScreen.storyboard */,
 				DA6C60F42BBBB5FF001DAF7E /* Info.plist */,
+				DADE04652BBCD25800295FE3 /* GoogleService-Info.plist */,
 			);
 			path = ISee;
 			sourceTree = "<group>";
@@ -134,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA6C610D2BBBB600001DAF7E /* Build configuration list for PBXNativeTarget "ISee" */;
 			buildPhases = (
+				9177E671D006686879F3C21F /* [CP] Check Pods Manifest.lock */,
 				DA6C60DF2BBBB5FF001DAF7E /* Sources */,
 				DA6C60E02BBBB5FF001DAF7E /* Frameworks */,
 				DA6C60E12BBBB5FF001DAF7E /* Resources */,
+				D3A138F25C64785ECA66A660 /* [CP] Embed Pods Frameworks */,
+				DA3CCEC22BBCE52D008AAD0D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -151,9 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA6C61102BBBB600001DAF7E /* Build configuration list for PBXNativeTarget "ISeeTests" */;
 			buildPhases = (
+				EDC49921460E7F57174406D0 /* [CP] Check Pods Manifest.lock */,
 				DA6C60F52BBBB600001DAF7E /* Sources */,
 				DA6C60F62BBBB600001DAF7E /* Frameworks */,
 				DA6C60F72BBBB600001DAF7E /* Resources */,
+				E1FE8219F19F9C4DCADA9A92 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA6C61132BBBB600001DAF7E /* Build configuration list for PBXNativeTarget "ISeeUITests" */;
 			buildPhases = (
+				D0EB9E990A9A401996D2555B /* [CP] Check Pods Manifest.lock */,
 				DA6C60FF2BBBB600001DAF7E /* Sources */,
 				DA6C61002BBBB600001DAF7E /* Frameworks */,
 				DA6C61012BBBB600001DAF7E /* Resources */,
+				929A2FF8E4B7CD2313BF6711 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +284,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA032B7D2BBCE87E00F87ED9 /* .swiftlint.yml in Resources */,
 				DA6C60F32BBBB5FF001DAF7E /* LaunchScreen.storyboard in Resources */,
 				DA6C60F02BBBB5FF001DAF7E /* Assets.xcassets in Resources */,
 				DA6C60EE2BBBB5FF001DAF7E /* Main.storyboard in Resources */,
+				DADE04662BBCD25800295FE3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +307,143 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9177E671D006686879F3C21F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ISee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		929A2FF8E4B7CD2313BF6711 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ISee-ISeeUITests/Pods-ISee-ISeeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ISee-ISeeUITests/Pods-ISee-ISeeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ISee-ISeeUITests/Pods-ISee-ISeeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0EB9E990A9A401996D2555B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ISee-ISeeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3A138F25C64785ECA66A660 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ISee/Pods-ISee-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ISee/Pods-ISee-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ISee/Pods-ISee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA3CCEC22BBCE52D008AAD0D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		E1FE8219F19F9C4DCADA9A92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ISeeTests/Pods-ISeeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ISeeTests/Pods-ISeeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ISeeTests/Pods-ISeeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDC49921460E7F57174406D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ISeeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DA6C60DF2BBBB5FF001DAF7E /* Sources */ = {
@@ -368,7 +560,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -425,7 +617,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -437,12 +629,14 @@
 		};
 		DA6C610E2BBBB600001DAF7E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0362704293A73C54A39BC9AA /* Pods-ISee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 827S9BAAJ2;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ISee/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -450,6 +644,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,12 +660,14 @@
 		};
 		DA6C610F2BBBB600001DAF7E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF8453911EA9FFF2375ECEF6 /* Pods-ISee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 827S9BAAJ2;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ISee/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -478,6 +675,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -493,6 +691,7 @@
 		};
 		DA6C61112BBBB600001DAF7E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60DD7D0CCD07978A5453710D /* Pods-ISeeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -500,7 +699,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 827S9BAAJ2;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Matheus-Henrique-Ramalho.ISeeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,6 +712,7 @@
 		};
 		DA6C61122BBBB600001DAF7E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFEB1D82F83D62D6953151A0 /* Pods-ISeeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -520,7 +720,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 827S9BAAJ2;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Matheus-Henrique-Ramalho.ISeeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -533,6 +733,7 @@
 		};
 		DA6C61142BBBB600001DAF7E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53232CDB78DE92BF9653D116 /* Pods-ISee-ISeeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -551,6 +752,7 @@
 		};
 		DA6C61152BBBB600001DAF7E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D0D21F524FE724B9B7181C0 /* Pods-ISee-ISeeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -6,6 +6,9 @@
 //
 
 import XCTest
+import RxTest
+import RxBlocking
+
 @testable import ISee
 
 final class ISeeTests: XCTestCase {
