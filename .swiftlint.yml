@@ -69,3 +69,14 @@ only_rules: # we enable lint rules explicitly - only the ones listed below are a
     - vertical_whitespace_opening_braces
     - void_return
     - xct_specific_matcher
+    - file_length:
+        warning: 500
+        error: 1200
+    - line_length: 110
+    - type_body_length:
+        - 300 # warning
+        - 400 # error
+    - force_cast: warning # implicitly
+    - force_try:
+       severity: warning # explicitly
+
