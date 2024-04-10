@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '13.0'
+platform :ios, '15.0'
 
 target 'ISee' do
   use_frameworks!
@@ -7,8 +7,6 @@ target 'ISee' do
   # Pods for ISee
    pod 'RxSwift', '6.5.0'
    pod 'RxCocoa', '6.5.0'
-   pod 'FirebaseAuth'
-   pod 'FirebaseFirestore'
    pod 'XCoordinator', '~> 2.0'
 
   target 'ISeeTests' do

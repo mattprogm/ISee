@@ -5,7 +5,6 @@
 //  Created by Matheus Henrique on 02/04/24.
 //
 
-import FirebaseAuth
 import RxCocoa
 import RxSwift
 import UIKit
