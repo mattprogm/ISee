@@ -11,6 +11,9 @@
 		913DF9B2BF3885707FE3B58B /* Pods_ISee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 600BAF710E0983F1482F8A22 /* Pods_ISee.framework */; };
 		ABBCC1D8580D65B9244FF9FA /* Pods_ISee_ISeeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B04553D790BE86BA3E25F588 /* Pods_ISee_ISeeUITests.framework */; };
 		DA032B7D2BBCE87E00F87ED9 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = DA032B7C2BBCE87E00F87ED9 /* .swiftlint.yml */; };
+		DA57031A2BC64E4E00914568 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DA5703192BC64E4E00914568 /* FirebaseAuth */; };
+		DA57031C2BC64E4E00914568 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DA57031B2BC64E4E00914568 /* FirebaseFirestore */; };
+		DA57031E2BC64F0600914568 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA57031D2BC64F0600914568 /* GoogleService-Info.plist */; };
 		DA6C60E72BBBB5FF001DAF7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C60E62BBBB5FF001DAF7E /* AppDelegate.swift */; };
 		DA6C60E92BBBB5FF001DAF7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C60E82BBBB5FF001DAF7E /* SceneDelegate.swift */; };
 		DA6C60EB2BBBB5FF001DAF7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C60EA2BBBB5FF001DAF7E /* ViewController.swift */; };
@@ -19,7 +22,6 @@
 		DA6C60FE2BBBB600001DAF7E /* ISeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C60FD2BBBB600001DAF7E /* ISeeTests.swift */; };
 		DA6C61082BBBB600001DAF7E /* ISeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C61072BBBB600001DAF7E /* ISeeUITests.swift */; };
 		DA6C610A2BBBB600001DAF7E /* ISeeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C61092BBBB600001DAF7E /* ISeeUITestsLaunchTests.swift */; };
-		DADE04662BBCD25800295FE3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DADE04652BBCD25800295FE3 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,7 @@
 		B04553D790BE86BA3E25F588 /* Pods_ISee_ISeeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ISee_ISeeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF234F94FDFB3396AA571D23 /* Pods-ISeeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISeeTests.debug.xcconfig"; path = "Target Support Files/Pods-ISeeTests/Pods-ISeeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DA032B7C2BBCE87E00F87ED9 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		DA57031D2BC64F0600914568 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DA6C60E32BBBB5FF001DAF7E /* ISee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA6C60E62BBBB5FF001DAF7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA6C60E82BBBB5FF001DAF7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,7 +65,6 @@
 		DA6C61032BBBB600001DAF7E /* ISeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA6C61072BBBB600001DAF7E /* ISeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISeeUITests.swift; sourceTree = "<group>"; };
 		DA6C61092BBBB600001DAF7E /* ISeeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISeeUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		DADE04652BBCD25800295FE3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				913DF9B2BF3885707FE3B58B /* Pods_ISee.framework in Frameworks */,
+				DA57031A2BC64E4E00914568 /* FirebaseAuth in Frameworks */,
+				DA57031C2BC64E4E00914568 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +152,7 @@
 				DA6C60EF2BBBB5FF001DAF7E /* Assets.xcassets */,
 				DA6C60F12BBBB5FF001DAF7E /* LaunchScreen.storyboard */,
 				DA6C60F42BBBB5FF001DAF7E /* Info.plist */,
-				DADE04652BBCD25800295FE3 /* GoogleService-Info.plist */,
+				DA57031D2BC64F0600914568 /* GoogleService-Info.plist */,
 			);
 			path = ISee;
 			sourceTree = "<group>";
@@ -189,6 +193,10 @@
 			dependencies = (
 			);
 			name = ISee;
+			packageProductDependencies = (
+				DA5703192BC64E4E00914568 /* FirebaseAuth */,
+				DA57031B2BC64E4E00914568 /* FirebaseFirestore */,
+			);
 			productName = ISee;
 			productReference = DA6C60E32BBBB5FF001DAF7E /* ISee.app */;
 			productType = "com.apple.product-type.application";
@@ -265,6 +273,9 @@
 				Base,
 			);
 			mainGroup = DA6C60DA2BBBB5FF001DAF7E;
+			packageReferences = (
+				DA5703182BC64E4E00914568 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = DA6C60E42BBBB5FF001DAF7E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -281,10 +292,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA57031E2BC64F0600914568 /* GoogleService-Info.plist in Resources */,
 				DA032B7D2BBCE87E00F87ED9 /* .swiftlint.yml in Resources */,
 				DA6C60F32BBBB5FF001DAF7E /* LaunchScreen.storyboard in Resources */,
 				DA6C60F02BBBB5FF001DAF7E /* Assets.xcassets in Resources */,
-				DADE04662BBCD25800295FE3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,7 +560,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -607,7 +618,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -634,7 +645,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -664,7 +675,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -688,7 +699,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 827S9BAAJ2;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Matheus-Henrique-Ramalho.ISeeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -709,7 +720,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 827S9BAAJ2;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Matheus-Henrique-Ramalho.ISeeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -729,6 +740,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 827S9BAAJ2;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Matheus-Henrique-Ramalho.ISeeUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -748,6 +760,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 827S9BAAJ2;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Matheus-Henrique-Ramalho.ISeeUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -798,6 +811,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DA5703182BC64E4E00914568 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.24.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DA5703192BC64E4E00914568 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA5703182BC64E4E00914568 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		DA57031B2BC64E4E00914568 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA5703182BC64E4E00914568 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DA6C60DB2BBBB5FF001DAF7E /* Project object */;
 }
